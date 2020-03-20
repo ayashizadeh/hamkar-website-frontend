@@ -1,0 +1,269 @@
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/eot/IRANSansWeb_Black.eot');
+    src: url('../fonts/eot/IRANSansWeb_Black.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('../fonts/woff2/IRANSansWeb_Black.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+    url('../fonts/woff/IRANSansWeb_Black.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/ttf/IRANSansWeb_Black.ttf') format('truetype');
+}
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/eot/IRANSansWeb_Bold.eot');
+    src: url('../fonts/eot/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('../fonts/woff2/IRANSansWeb_Bold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+    url('../fonts/woff/IRANSansWeb_Bold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/ttf/IRANSansWeb_Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/eot/IRANSansWeb_Medium.eot');
+    src: url('../fonts/eot/IRANSansWeb_Medium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('../fonts/woff2/IRANSansWeb_Medium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+    url('../fonts/woff/IRANSansWeb_Medium.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/ttf/IRANSansWeb_Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/eot/IRANSansWeb_Light.eot');
+    src: url('../fonts/eot/IRANSansWeb_Light.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('../fonts/woff2/IRANSansWeb_Light.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+    url('../fonts/woff/IRANSansWeb_Light.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/ttf/IRANSansWeb_Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/eot/IRANSansWeb_UltraLight.eot');
+    src: url('../fonts/eot/IRANSansWeb_UltraLight.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('../fonts/woff2/IRANSansWeb_UltraLight.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+    url('../fonts/woff/IRANSansWeb_UltraLight.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/ttf/IRANSansWeb_UltraLight.ttf') format('truetype');
+}
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/eot/IRANSansWeb.eot');
+    src: url('../fonts/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('../fonts/woff2/IRANSansWeb.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+    url('../fonts/woff/IRANSansWeb.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/ttf/IRANSansWeb.ttf') format('truetype');
+}
+body {
+    font-family: IRANSans !important;
+    font-weight: 300;
+    margin: 0;
+    direction: rtl;
+
+
+
+}
+h1, h2, h3, h4, h5, h6,input, textarea,p {
+    font-family: IRANSans !important;
+}
+ nav{
+
+     box-shadow:0px 1px 7px 1px #e3e6f0;
+ }
+.nav-1 li{
+
+    padding-right: 20px;
+}
+.nav-1 li:hover{
+    color: #ff316f;
+}
+.nav-2{
+    margin:0px 40px;
+}
+ .nav-2 li{
+    margin: 0px 5px;
+ }
+ .nav-2 li:nth-child(1){
+     background-color: #e7f6e6;
+     padding: 4px 6px;
+     border-radius: 5px;
+
+ }
+.nav-2 li:nth-child(2){
+    background-color: #e3e6f0;
+    padding: 4px 6px;
+    border-radius: 5px;
+}
+.nav-2 li:nth-child(3){
+    background-color: #e3e6f0;
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+ .nav-2 li:nth-child(4){
+     background-color: #ff316f;
+     color: white;
+     padding: 4px 10px;
+     border-radius: 5px;
+ }
+.nav-2 li a{
+    color: #fff;
+}
+
+                                        /*end nav */
+#ser1{
+    padding: 160px 0;
+}
+#ser1 p{
+    font-size: 16px;
+    margin-bottom: 35px;
+    line-height: 35px;
+    color: #545b62;
+}
+
+
+#ser2{
+    position: relative;
+    padding:90px 60px 60px 60px;
+
+}
+.icon-box{
+    padding: 0px 40px;
+}
+.icon {
+    position: absolute;
+ text-align: center;
+    right: -25px;
+    top: 0px;
+    height: 70px;
+    width: 70px;
+   padding: 20px 10px;
+    border-radius: 70%;
+    color: white;
+}
+.icon-color1{
+    background-color: #f4a261;
+    box-shadow: 1px 0 7px 1px #f4a261;
+}
+.icon-color2{
+    background-color: #8aaae8;
+    box-shadow: 1px 0 7px 1px #8aaae8;
+}
+.icon-color3{
+    background-color: #b3e16b;
+    box-shadow: 1px 0 7px 1px #b3e16b;
+}
+#ser3{
+    position: relative;
+    background-color: #f9f8fc;
+    padding: 140px 70px 80px 60px;
+    text-align: right;
+}
+.heading-holder{
+
+}
+#ser3 h2{
+    font-size: 26px;
+}
+
+
+.box-holder{
+    padding: 10px 40px 10px 10px;
+}
+.box-icon-2{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    color: #007bff;
+
+}
+.box-img{
+    padding-top: -150px;
+}
+
+
+
+#ser4{
+
+    text-align: center;
+    padding: 60px 40px;
+}
+.process{
+padding-top: 50px  ;
+
+}
+
+.progress-number{
+    position: absolute;
+    font-size: 120px;
+    color: #f9f8fc;
+    top: 20px;
+    z-index: 1;
+}
+.process img{
+position: relative;
+    z-index: 2;
+}
+
+#ser5{
+    padding: 30px 0px 100px 0px;
+}
+
+.card-1{
+    width: 350px;
+    height: 350px;
+    border-radius: 3px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+.card-1 .thumb {
+    height: 260px;
+    background: url("../img/googshishop-cover.jpg") no-repeat center;
+    background-size: cover;
+    border-radius: 3px;
+}
+.card-1 .infos {
+    height: 350px;
+    padding: 14px 24px;
+    background: #fff;
+    -webkit-transition: 0.4s 0.15s cubic-bezier(0.17, 0.67, 0.5, 1.03);
+    transition: 0.4s 0.15s cubic-bezier(0.17, 0.67, 0.5, 1.03);
+
+}
+.card-1.infos .title {
+    margin: 10px 0;
+    letter-spacing: 3px;
+    color: #152536;
+    font-size: 1rem;
+    text-shadow: 0 0 0px #32577f;
+}
+
+.card-1 .infos .date{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: .85rem;
+    color: rgba(21, 37, 54, 0.7);
+}
+.infos .txt{
+    opacity: 0;
+}
+
+.card-1:hover .infos {
+    -webkit-transform: translateY(-260px);
+    transform: translateY(-260px);
+}
+.card-1:hover .infos .txt {
+    opacity: 1;
+}
+#ser6{
+    height: 150px;
+    background-color: #35373a;
+}
+#ser6 p{
+    color: #ffff;
+    padding: 50px 20px;
+    text-align: center;
+}
